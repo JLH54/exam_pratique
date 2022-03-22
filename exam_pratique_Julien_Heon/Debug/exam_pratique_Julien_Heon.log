@@ -1,0 +1,14 @@
+﻿  game.cpp
+C:\Users\2130025\source\repos\exam_pratique_Julien_Heon\exam_pratique_Julien_Heon\game.cpp(51,21): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\2130025\source\repos\exam_pratique_Julien_Heon\exam_pratique_Julien_Heon\game.cpp(60,35): error C2664: 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::erase(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>) noexcept(<expr>)' : impossible de convertir l'argument 1 de '_Ty' en 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>'
+          with
+          [
+              _Ty=gobelin
+          ]
+C:\Users\2130025\source\repos\exam_pratique_Julien_Heon\exam_pratique_Julien_Heon\game.cpp(60,34): message : Aucun opérateur de conversion définie par l'utilisateur disponible qui puisse effectuer cette conversion, ou l'opérateur ne peut pas être appelé
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1406,37): message : voir la déclaration de 'std::vector<gobelin,std::allocator<gobelin>>::erase'
+  gobelin.cpp
+  joueur.cpp
+  main.cpp
+C:\Users\2130025\source\repos\exam_pratique_Julien_Heon\exam_pratique_Julien_Heon\main.cpp(6,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
